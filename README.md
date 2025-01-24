@@ -1,1 +1,1 @@
-# BomberApe
+Számítógépes grafika ZH - 2024

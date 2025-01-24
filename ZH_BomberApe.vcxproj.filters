@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{de539653-475b-4a5d-b931-486fb7b94e05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GL Utils">
+      <UniqueIdentifier>{86625e1e-e455-4eb5-8353-2412fe2eea1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{2647e48b-ba56-4089-91c3-4c7c3bfddc95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\SDL_GLDebugMessageCallback.cpp">
+      <Filter>GL Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\GLUtils.cpp">
+      <Filter>GL Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\Camera.cpp">
+      <Filter>GL Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\ObjParser.cpp">
+      <Filter>GL Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\CameraManipulator.cpp">
+      <Filter>GL Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\SDL_GLDebugMessageCallback.h">
+      <Filter>GL Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\GLUtils.hpp">
+      <Filter>GL Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Camera.h">
+      <Filter>GL Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\ObjParser.h">
+      <Filter>GL Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\ParametricSurfaceMesh.hpp">
+      <Filter>GL Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\CameraManipulator.h">
+      <Filter>GL Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\Vert_PosNormTex.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Frag_skybox.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Frag_ZH.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Vert_skybox.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\wood.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\bunker_xneg.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\bunker_xpos.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\bunker_yneg.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\bunker_ypos.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\bunker_zneg.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\bunker_zpos.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\dynamit.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\flames.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\grid.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\hat.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\wall.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\wood.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assets\Suzanne.obj">
+      <Filter>Assets</Filter>
+    </Text>
+    <Text Include="Assets\Suzanne.obj" />
+    <Text Include="Assets\hardhat.obj">
+      <Filter>Assets</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
